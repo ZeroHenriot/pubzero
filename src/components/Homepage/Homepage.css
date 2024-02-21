@@ -1,0 +1,65 @@
+#background {
+  background-image: linear-gradient(
+      0deg,
+      rgba(8, 2, 21, 1) 1%,
+      rgba(0, 0, 0, 0.9) 50%,
+      rgba(8, 2, 21, 1) 99%
+    ),
+    url('../../assets/AdobeStock_207281781_Preview.jpeg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  /* filter: blur(10px); */
+}
+/* 
+#overlay {
+  background-color: black;
+  height: 100%;
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+} */
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+
+#logo > img {
+  width: 200px;
+}
+
+#logo > a {
+  width: fit-content;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+}
+
+.collino {
+  border-top: 1px solid #1a0742;
+}
+
+@media screen and (min-width: 300px) {
+  #logo > img {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  #logo > img {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .collino {
+    border-top: 0;
+  }
+}

@@ -1,0 +1,15 @@
+$primary: #a640a4;
+$secondary: #4e1c4d;
+$tertiary: #ffebd6;
+$dark: #080215;
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'tertiary': $tertiary,
+  'dark': $dark,
+);
+$border-color: #1a0742;
+$display-font-sizes: (
+  1: 7.5rem,
+);
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

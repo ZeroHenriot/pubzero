@@ -1,0 +1,91 @@
+.locale,
+.collino {
+  width: 450px;
+  height: 293px;
+}
+
+.first-picture,
+.second-picture {
+  position: absolute;
+}
+.first-picture,
+.second-picture,
+.overlay {
+  border-radius: 10px;
+}
+
+#background-about {
+  background-image: linear-gradient(
+      0deg,
+      rgba(8, 2, 21, 1) 1%,
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(8, 2, 21, 1) 98%
+    ),
+    url('../../assets/bar-34.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+#boh {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url('../../assets/bar-09.jpg');
+  height: 450px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -100px;
+}
+
+#menu-btn-about {
+  width: fit-content;
+  color: #a640a4;
+  background-color: #080215;
+  transition: 0.2s;
+  &:hover {
+    color: #080215;
+    background-color: #a640a4;
+    transition: 0.2s;
+  }
+}
+
+.boh2 {
+  width: auto !important;
+}
+
+.boh2 > img {
+  margin-block: 30px;
+  margin-left: 30px;
+  margin-right: -30px;
+}
+
+#second-row {
+  margin-top: 150px !important;
+}
+
+.second-description {
+  height: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+  #boh,
+  #second-row,
+  .boh2 > img {
+    margin: 0 !important;
+  }
+  .boh2 > img {
+    width: 100%;
+  }
+  .boh2 {
+    margin-block: 50px !important;
+  }
+  #boh {
+    margin-top: 50px !important;
+  }
+}

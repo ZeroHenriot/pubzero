@@ -1,0 +1,9 @@
+.GetPosition {
+  width: fit-content;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #ffebd6 !important;
+  }
+}
